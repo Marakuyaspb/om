@@ -6,7 +6,7 @@ import { SerializedPoolConfig, PoolCategory } from './types'
 
 const serializedTokens = serializeTokens()
 
-export const UNLOCK_FREE_DURATION = 604800
+export const UNLOCK_FREE_DURATION = 600
 
 export const vaultPoolConfig = {
   [VaultKey.CakeVaultV1]: {

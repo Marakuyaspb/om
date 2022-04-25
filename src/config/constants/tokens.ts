@@ -24,7 +24,7 @@ export const mainnetTokens = defineTokens({
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0x93E787c7cb9e8eBa5952d1e5D1c391d2b499E51e',
     18,
     'CAKE',
     'PancakeSwap Token',
