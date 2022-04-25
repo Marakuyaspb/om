@@ -27,6 +27,9 @@ const LockDurationField: React.FC<LockDurationFieldPropsType> = ({ duration, set
           </Text>
         </Flex>
         <Flex flexWrap="wrap">
+          <Button onClick={() => setDuration(600)} mt="4px" mr={['2px', '2px', '4px', '4px']} scale="sm">
+            Test
+          </Button>
           {DURATIONS.map((week) => (
             <Button
               key={week}
