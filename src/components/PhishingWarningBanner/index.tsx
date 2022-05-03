@@ -12,7 +12,7 @@ const Container = styled(Flex)`
     linear-gradient(180deg, #8051d6 0%, #492286 100%);
   ${({ theme }) => theme.mediaQueries.md} {
     padding: 0px;
-    background: linear-gradient(180deg, #8051d6 0%, #492286 100%);
+    background: linear-gradient(80deg, #ebeced 0%, #492286 100%);
   }
 `
 

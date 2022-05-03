@@ -82,6 +82,7 @@ const Home: React.FC = () => {
       >
         <MetricsSection />
       </PageSection>
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}

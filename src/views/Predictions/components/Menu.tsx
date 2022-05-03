@@ -89,6 +89,7 @@ const Menu = () => {
               </Button>
             </Link>
           </LeaderboardButtonWrapper>
+
           <ButtonWrapper style={{ order: 4 }}>
             <HistoryButton />
           </ButtonWrapper>
