@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="25.4mm"
+   height="25.4mm"
+   viewBox="0 0 25.4 25.4"
+   version="1.1"
+   id="svg1380"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="bmcc_space.svg"
+   inkscape:export-filename="/home/anna/projects/_omg/bmcc.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs1374">
+    <style
+       id="style1925"
+       type="text/css"><![CDATA[
+    .fil0 {fill:#F7BE2F}
+   ]]></style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="64.479031"
+     inkscape:cy="61.72081"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1211"
+     inkscape:window-height="962"
+     inkscape:window-x="1158"
+     inkscape:window-y="77"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1377">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(29.90129,-4.1300173)">
+    <circle
+       style="opacity:1;fill:#163541;fill-opacity:1;stroke:none;stroke-width:0.38168594;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path1945"
+       cx="-17.20129"
+       cy="16.830017"
+       r="12.7" />
+    <g
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       id="g1943"
+       transform="matrix(0.20779566,0,0,0.20779566,-25.732782,7.1181234)">
+      <g
+         id="Слой_x0020_1">
+        <metadata
+           id="CorelCorpID_0Corel-Layer" />
+        <path
+           id="path1930"
+           d="M 41.09,0 0,23.72 V 71.17 L 41.09,94.89 82.18,71.17 V 23.72 Z M 28.55,69.08 c -1.4,-0.84 -2.71,-1.83 -3.92,-2.94 3.16,-4.55 7.88,-8.05 13.65,-9.59 l 9.41,-2.52 c 7.24,-1.94 13.08,-6.45 16.86,-12.27 0.02,0.06 0.04,0.12 0.06,0.18 0.6,2.23 0.84,4.46 0.81,6.66 -4.26,4.75 -9.86,8.37 -16.47,10.14 l -9.41,2.52 c -4.67,1.25 -8.45,4.12 -10.99,7.83 z m -7.22,-6.66 c -1.01,-1.4 -1.87,-2.93 -2.57,-4.56 4.31,-5.04 10.12,-8.88 17,-10.72 l 9.41,-2.52 c 6.73,-1.8 11.68,-6.94 13.58,-13.16 1.31,1.38 2.45,2.94 3.42,4.63 -2.93,6.29 -8.51,11.29 -15.74,13.23 l -9.41,2.52 C 30.5,53.59 25.11,57.42 21.34,62.42 Z m 33.2,-34.45 c -0.84,5.57 -4.86,10.4 -10.63,11.95 l -9.41,2.52 c -6.81,1.82 -12.7,5.36 -17.37,10.02 -0.37,-2.12 -0.45,-4.23 -0.27,-6.3 4.66,-3.83 10.18,-6.76 16.38,-8.42 l 9.41,-2.52 c 4.43,-1.19 7.31,-5.27 7.19,-9.67 1.65,0.64 3.23,1.45 4.7,2.43 z M 34.78,24.72 c 3.35,-0.9 6.71,-1.04 9.93,-0.55 l 0.1,0.37 c 0.7,2.59 -0.85,5.27 -3.44,5.97 l -9.41,2.52 c -4.85,1.3 -9.31,3.32 -13.35,5.88 2.8,-6.74 8.57,-12.16 16.16,-14.19 z m 12.6,47.03 c -4.93,1.32 -9.9,1.02 -14.37,-0.55 1.89,-2.47 4.55,-4.38 7.78,-5.24 l 9.41,-2.52 c 5.15,-1.38 9.77,-3.75 13.73,-6.84 -2.64,7.19 -8.59,13.02 -16.55,15.16 z M 43.86,19.15 V 8.04 l 25.13,14.51 h -14 c 6.81,3.69 12.15,10.06 14.31,18.13 0.54,2.01 0.85,4.04 0.96,6.04 L 76.6,35.73 v 29.01 l -8.66,-5 c -0.73,1.71 -1.63,3.35 -2.67,4.89 l 8.55,4.94 -25.12,14.51 5.66,-9.8 c -1.79,0.91 -3.69,1.65 -5.71,2.19 -7.27,1.95 -14.64,0.97 -20.86,-2.21 l 5.66,9.81 -25.09,-14.49 8.56,-4.91 c -1.03,-1.52 -1.93,-3.15 -2.67,-4.89 l -8.68,4.98 v -29 l 6.34,10.98 C 12.43,36.65 18.19,27.41 27.17,22.55 H 13.18 L 38.3,8.04 v 11.11 c 1.88,-0.18 3.74,-0.18 5.57,0 z"
+           class="fil0"
+           inkscape:connector-curvature="0"
+           style="fill:#f7be2f" />
+      </g>
+    </g>
+  </g>
+</svg>
