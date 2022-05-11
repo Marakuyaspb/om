@@ -31,11 +31,7 @@ const TotalStakedCell: React.FC<ExpandActionCellProps> = ({ expanded, isFullLayo
   const { t } = useTranslation()
   return (
     <StyledCell role="cell">
-      {isFullLayout && (
-        <Text color="primary" bold>
-          {expanded ? t('Hide') : t('Details')}
-        </Text>
-      )}
+      {isFullLayout && <Text color="secondary">{expanded ? t('Hide') : t('Details')}</Text>}
       <ArrowIcon color="primary" toggled={expanded} />
     </StyledCell>
   )

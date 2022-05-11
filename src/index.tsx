@@ -2,7 +2,6 @@ import { ReactNode, useMemo } from 'react'
 import { BLOCKED_ADDRESSES } from './config/constants'
 import useActiveWeb3React from './hooks/useActiveWeb3React'
 import ListsUpdater from './state/lists/updater'
-import MulticallUpdater from './state/multicall/updater'
 import TransactionUpdater from './state/transactions/updater'
 
 export function Updaters() {
@@ -10,7 +9,6 @@ export function Updaters() {
     <>
       <ListsUpdater />
       <TransactionUpdater />
-      <MulticallUpdater />
     </>
   )
 }

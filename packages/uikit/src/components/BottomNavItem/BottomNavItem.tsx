@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { MenuContext } from "../../widgets/Menu/context";
 import { Flex } from "../Box";
-import AnimatedIconComponent from "../Svg/AnimatedIconComponent";
 import { StyledBottomNavItem, StyledBottomNavText } from "./styles";
 import { BottomNavItemProps } from "./types";
+import AnimatedIconComponent from "../Svg/AnimatedIconComponent";
 
 const BottomNavItem: React.FC<BottomNavItemProps> = ({
   label,
@@ -29,9 +29,9 @@ const BottomNavItem: React.FC<BottomNavItemProps> = ({
         />
       )}
       <StyledBottomNavText
-        color={isActive ? "text" : "textSubtle"}
+        color={isActive ? "success" : "textSubtle"}
         fontWeight={isActive ? "600" : "400"}
-        fontSize="10px"
+        fontSize="1.1em"
       >
         {label}
       </StyledBottomNavText>

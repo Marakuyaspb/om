@@ -6,32 +6,29 @@ import {
   ShrinkIcon,
   SyncAltIcon,
   Text,
-  // TradingViewIcon,
   LineGraphIcon,
   useMatchBreakpoints,
 } from '@pancakeswap/uikit'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
-// import { TradingViewLabel } from 'components/TradingView'
 import { useTranslation } from 'contexts/Localization'
 import { ChartViewMode } from 'state/user/actions'
 import { useExchangeChartViewManager } from 'state/user/hooks'
 import styled from 'styled-components'
 import BasicChart from './BasicChart'
 import { StyledPriceChart } from './styles'
-// import TradingViewChart from './TradingViewChart'
-// import PairPriceDisplay from '../../../../components/PairPriceDisplay'
 
 const ChartButton = styled(Button)`
-  background-color: ${({ $active, theme }) => $active && `${theme.colors.primary}0f`};
-  padding: 4px 8px;
+  background-color: inputSecondary;
+  padding: 8px;
   border-radius: 6px;
+  justify-content: center;
+  align-items: center;
 `
 
 const PriceChart = ({
   inputCurrency,
   outputCurrency,
   onSwitchTokens,
-  isDark,
   isChartExpanded,
   setIsChartExpanded,
   isMobile,
@@ -54,7 +51,7 @@ const PriceChart = ({
     <StyledPriceChart
       height={chartView === ChartViewMode.TRADING_VIEW ? '100%' : '70%'}
       overflow={chartView === ChartViewMode.TRADING_VIEW ? 'hidden' : 'unset'}
-      $isDark={isDark}
+      $isDark={}
       $isExpanded={isChartExpanded}
       $isFullWidthContainer={isFullWidthContainer}
     >
@@ -71,7 +68,7 @@ const PriceChart = ({
             </Text>
           )}
           <IconButton variant="text" onClick={onSwitchTokens}>
-            <SyncAltIcon ml="6px" color="primary" />
+            <SyncAltIcon ml="6px" color="yellow" />
           </IconButton>
           <Flex>
             <ChartButton
@@ -79,23 +76,12 @@ const PriceChart = ({
               title={t('Basic')}
               $active={chartView === ChartViewMode.BASIC}
               scale="sm"
-              variant="text"
-              color="primary"
+              color="yellow"
               onClick={() => setChartView(ChartViewMode.BASIC)}
               mr="8px"
             >
-              {isDesktop ? t('Basic') : <LineGraphIcon color="primary" />}
+              {isDesktop ? t('Basic') : <LineGraphIcon color="yellow" />}
             </ChartButton>
-            {/* <ChartButton
-              aria-label="TradingView"
-              title="TradingView"
-              $active={chartView === ChartViewMode.TRADING_VIEW}
-              scale="sm"
-              variant="text"
-              onClick={() => setChartView(ChartViewMode.TRADING_VIEW)}
-            >
-              {isDesktop ? 'TradingView' : <TradingViewIcon color="primary" />}
-            </ChartButton> */}
           </Flex>
         </Flex>
         {!isMobile && (

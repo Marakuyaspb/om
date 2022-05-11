@@ -1,18 +1,18 @@
 {
-  "short_name": "PancakeSwap",
-  "name": "PancakeSwap",
-  "description": "Farm CAKE with Pancake LP Tokens",
-  "homepage_url": "https://pancakeswap.finance",
+  "short_name": "Binance Multi-Chain Capital",
+  "name": "Binance Multi-Chain Capital",
+  "description": "Binance Multi-Chain Capital",
+  "homepage_url": "https://bmcc.finance/",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#1FC7D4",
+  "theme_color": "#0d141d",
   "background_color": "#ffffff",
   "orientation": "portrait",
   "icons": [
     {
       "src": "favicon.ico",
       "type": "image/x-icon",
-      "sizes": "16x16"
+      "sizes": "28x28"
     },
     {
       "src": "logo.png",

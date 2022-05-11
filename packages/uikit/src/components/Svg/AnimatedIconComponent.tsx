@@ -4,8 +4,8 @@ import { IconComponentType } from "./types";
 const AnimatedIconComponent: React.FC<IconComponentType> = ({
   icon,
   fillIcon,
-  color = "textSubtle",
-  activeColor = "secondary",
+  color = "primary",
+  activeColor = "success",
   activeBackgroundColor,
   isActive = false,
   ...props

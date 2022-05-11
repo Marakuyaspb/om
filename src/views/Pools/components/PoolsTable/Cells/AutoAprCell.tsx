@@ -25,7 +25,7 @@ const AutoAprCell: React.FC<AprCellProps> = ({ pool }) => {
   return (
     <BaseCell role="cell" flex={['1 0 50px', '1 0 50px', '2 0 100px', '2 0 100px', '1 0 120px']}>
       <CellContent>
-        <Text fontSize="12px" color="textSubtle" textAlign="left">
+        <Text fontSize="12px" color="failure" textAlign="left">
           {t('APY')}
         </Text>
         <Apr

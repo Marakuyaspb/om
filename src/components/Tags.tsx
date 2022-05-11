@@ -65,7 +65,7 @@ const DualTag: React.FC<TagProps> = (props) => {
 const ManualPoolTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="secondary" outline startIcon={<RefreshIcon width="18px" color="secondary" mr="4px" />} {...props}>
+    <Tag variant="failure" outline startIcon={<RefreshIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Manual')}
     </Tag>
   )
@@ -74,7 +74,7 @@ const ManualPoolTag: React.FC<TagProps> = (props) => {
 const CompoundingPoolTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="success" outline startIcon={<AutoRenewIcon width="18px" color="success" mr="4px" />} {...props}>
+    <Tag variant="failure" outline startIcon={<AutoRenewIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Auto')}
     </Tag>
   )
@@ -83,7 +83,7 @@ const CompoundingPoolTag: React.FC<TagProps> = (props) => {
 const VoteNowTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="success" startIcon={<VoteIcon width="18px" color="success" mr="4px" />} {...props}>
+    <Tag variant="success" startIcon={<VoteIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Vote Now')}
     </Tag>
   )
@@ -92,7 +92,7 @@ const VoteNowTag: React.FC<TagProps> = (props) => {
 const SoonTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="binance" startIcon={<TimerIcon width="18px" color="success" mr="4px" />} {...props}>
+    <Tag variant="binance" startIcon={<TimerIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Soon')}
     </Tag>
   )
@@ -101,7 +101,7 @@ const SoonTag: React.FC<TagProps> = (props) => {
 const ClosedTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="textDisabled" startIcon={<BlockIcon width="18px" color="textDisabled" mr="4px" />} {...props}>
+    <Tag variant="textDisabled" startIcon={<BlockIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Closed')}
     </Tag>
   )

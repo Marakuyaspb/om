@@ -47,15 +47,6 @@ const Radio = styled.input.attrs({ type: "radio" })<RadioProps>`
     width: ${getCheckedScale};
   }
 
-  &:hover:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
-
-  &:focus {
-    outline: none;
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
-
   &:checked {
     background-color: ${({ theme }) => theme.colors.success};
     &:after {

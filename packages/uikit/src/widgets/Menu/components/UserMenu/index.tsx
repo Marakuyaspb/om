@@ -111,8 +111,10 @@ const UserMenu: React.FC<UserMenuProps> = ({
         }}
       >
         <MenuIcon avatarSrc={avatarSrc} variant={variant} />
-        <LabelText title={text || account}>{text || accountEllipsis}</LabelText>
-        <ChevronDownIcon color="text" width="24px" />
+        <LabelText background="primary" title={text || account} color="primary">
+          {text || accountEllipsis}
+        </LabelText>
+        <ChevronDownIcon width="24px" />
       </StyledUserMenu>
       <Menu style={styles.popper} ref={setTooltipRef} {...attributes.popper} isOpen={isOpen}>
         <Box onClick={() => setIsOpen(false)}>{children}</Box>

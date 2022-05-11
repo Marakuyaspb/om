@@ -30,7 +30,7 @@ const EndsInCell: React.FC<FinishCellProps> = ({ pool }) => {
     <Flex alignItems="center">
       <Flex flex="1.3">
         <Balance fontSize="16px" value={blocksToDisplay} decimals={0} />
-        <Text ml="4px" textTransform="lowercase">
+        <Text ml="4px" textTransform="lowercase" color="failure">
           {t('Blocks')}
         </Text>
       </Flex>

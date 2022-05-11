@@ -1,20 +1,5 @@
-import {
-  MenuItemsType,
-  DropdownMenuItemType,
-  SwapIcon,
-  SwapFillIcon,
-  EarnFillIcon,
-  EarnIcon,
-  TrophyIcon,
-  TrophyFillIcon,
-  NftIcon,
-  NftFillIcon,
-  MoreIcon,
-  menuStatus,
-} from '@pancakeswap/uikit'
+import { MenuItemsType, MoreIcon } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { perpLangMap } from 'utils/getPerpetualLanguageCode'
 
 export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
@@ -30,6 +15,25 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
   {
     label: t('Swap'),
     href: '/swap',
+  },
+  {
+    label: t('DAO'),
+    href: '/',
+  },
+  {
+    label: '',
+    href: '#',
+    icon: MoreIcon,
+    items: [
+      {
+        label: t('About'),
+        href: 'https://bmcc.finance',
+      },
+      {
+        label: t('Docs'),
+        href: 'https://docs.bmcc.finance/',
+      },
+    ],
   },
 ]
 

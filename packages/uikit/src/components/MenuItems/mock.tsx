@@ -16,16 +16,6 @@ const MenuItemsMock = [
     href: "/",
     items: ItemsMock,
   },
-  {
-    label: "NFT",
-    href: "/",
-    items: [ItemsMock[0]],
-  },
-  {
-    label: "...",
-    href: "/",
-    items: ItemsMock,
-  },
 ];
 
 export default MenuItemsMock;

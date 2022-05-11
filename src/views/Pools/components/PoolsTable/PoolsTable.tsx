@@ -17,13 +17,13 @@ const StyledTable = styled.div`
 
   background-color: ${({ theme }) => theme.card.background};
   > div:not(:last-child) {
-    border-bottom: 2px solid ${({ theme }) => theme.colors.disabled};
+    border-bottom: 2px solid ${({ theme }) => theme.colors.input};
   }
 `
 
 const StyledTableBorder = styled.div`
   border-radius: ${({ theme }) => theme.radii.card};
-  background-color: ${({ theme }) => theme.colors.cardBorder};
+  background-color: ${({ theme }) => theme.colors.background};
   padding: 1px 1px 3px 1px;
   background-size: 400% 400%;
 `
@@ -52,7 +52,7 @@ const PoolsTable: React.FC<PoolsTableProps> = ({ pools, userDataLoaded, account 
         <ScrollButtonContainer>
           <Button variant="text" onClick={scrollToTop}>
             {t('To Top')}
-            <ChevronUpIcon color="primary" />
+            <ChevronUpIcon />
           </Button>
         </ScrollButtonContainer>
       </StyledTable>

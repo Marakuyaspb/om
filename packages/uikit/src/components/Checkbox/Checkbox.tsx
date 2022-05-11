@@ -42,15 +42,6 @@ const Checkbox = styled.input.attrs({ type: "checkbox" })<CheckboxProps>`
     transition: border-color 0.2s ease-in-out;
   }
 
-  &:hover:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
-
-  &:focus {
-    outline: none;
-    box-shadow: ${({ theme }) => theme.shadows.focus};
-  }
-
   &:checked {
     background-color: ${({ theme }) => theme.colors.success};
     &:after {

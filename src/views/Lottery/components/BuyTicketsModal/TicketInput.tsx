@@ -20,12 +20,6 @@ const InputsContainer = styled.div<{ focused: boolean; isDuplicate: boolean }>`
     border: 1px solid #FFB237;
     box-shadow: 0px 0px 0px 2px #FFB237;
   `}
-  ${({ focused }) =>
-    focused &&
-    `
-    border: 1px solid #7645D9;
-    box-shadow: 0px 0px 0px 2px #E4DAF7;
-  `}
 `
 
 const DigitInput = styled.input`
