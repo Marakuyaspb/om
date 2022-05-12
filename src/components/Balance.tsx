@@ -12,16 +12,7 @@ interface BalanceProps extends TextProps {
   onClick?: (event: React.MouseEvent<HTMLElement>) => void
 }
 
-const Balance: React.FC<BalanceProps> = ({
-  value,
-  color = 'text',
-  decimals = 3,
-  isDisabled = false,
-  unit,
-  prefix,
-  onClick,
-  ...props
-}) => {
+const Balance: React.FC<BalanceProps> = ({ value, decimals = 3, unit, prefix, onClick, ...props }) => {
   const previousValue = useRef(0)
 
   useEffect(() => {

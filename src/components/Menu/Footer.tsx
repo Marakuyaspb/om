@@ -2,7 +2,6 @@ import { memo } from 'react'
 import styled from 'styled-components'
 import { LinkExternal, Flex } from '@pancakeswap/uikit'
 import { useTranslation } from 'contexts/Localization'
-import { EXCHANGE_DOCS_URLS } from 'config/constants'
 
 const Wrapper = memo(styled.div<{ $isSide: boolean }>`
   width: 100%;

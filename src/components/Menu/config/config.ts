@@ -3,7 +3,7 @@ import { ContextApi } from 'contexts/Localization/types'
 
 export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
-const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType[] = (t, languageCode) => [
+const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Farm'),
     href: '/farms',

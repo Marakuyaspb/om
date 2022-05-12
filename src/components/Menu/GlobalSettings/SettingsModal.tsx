@@ -1,13 +1,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
 import { Text, Toggle, Flex, Modal, InjectedModalProps } from '@pancakeswap/uikit'
-import {
-  useAudioModeManager,
-  useExpertModeManager,
-  useSubgraphHealthIndicatorManager,
-  useUserExpertModeAcknowledgementShow,
-  useUserSingleHopOnly,
-} from 'state/user/hooks'
+import { useExpertModeManager, useUserExpertModeAcknowledgementShow, useUserSingleHopOnly } from 'state/user/hooks'
 import { useTranslation } from 'contexts/Localization'
 import { useSwapActionHandlers } from 'state/swap/hooks'
 import useTheme from 'hooks/useTheme'
@@ -29,7 +23,6 @@ const SettingsModal: React.FC<InjectedModalProps> = ({ onDismiss }) => {
   const [showExpertModeAcknowledgement, setShowExpertModeAcknowledgement] = useUserExpertModeAcknowledgementShow()
   const [expertMode, toggleExpertMode] = useExpertModeManager()
   const [singleHopOnly, setSingleHopOnly] = useUserSingleHopOnly()
-  const [subgraphHealth, setSubgraphHealth] = useSubgraphHealthIndicatorManager()
   const { onChangeRecipient } = useSwapActionHandlers()
 
   const { t } = useTranslation()

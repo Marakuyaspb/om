@@ -44,7 +44,6 @@ const RoiCalculatorFooter: React.FC<RoiCalculatorFooterProps> = ({
   displayApr,
   autoCompoundFrequency,
   multiplier,
-  linkLabel,
   linkHref,
   performanceFee,
 }) => {

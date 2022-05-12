@@ -61,14 +61,6 @@ export const Input = styled.input<InputProps>`
   &:checked + ${Handle} {
     left: ${getScale("checkedLeft")};
   }
-
-  &:focus + ${Handle} {
-    box-shadow: ${({ theme }) => theme.shadows.primary};
-  }
-
-  &:hover + ${Handle}:not(:disabled):not(:checked) {
-    box-shadow: ${({ theme }) => theme.shadows.primary};
-  }
 `;
 
 const StyledToggle = styled.div<StyleToggleProps>`

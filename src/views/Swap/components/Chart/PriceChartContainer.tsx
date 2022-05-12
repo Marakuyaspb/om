@@ -57,7 +57,6 @@ const PriceChartContainer: React.FC<PriceChartContainerProps> = ({
       inputCurrency={isPairReversed ? outputCurrency : inputCurrency}
       outputCurrency={isPairReversed ? inputCurrency : outputCurrency}
       onSwitchTokens={togglePairReversed}
-      isDark={isDark}
       isChartExpanded={isChartExpanded}
       setIsChartExpanded={setIsChartExpanded}
       isMobile={isMobile}

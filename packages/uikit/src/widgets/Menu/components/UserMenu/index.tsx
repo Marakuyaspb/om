@@ -111,7 +111,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
         }}
       >
         <MenuIcon avatarSrc={avatarSrc} variant={variant} />
-        <LabelText background="primary" title={text || account} color="primary">
+        <LabelText title={text || account} color="primary">
           {text || accountEllipsis}
         </LabelText>
         <ChevronDownIcon width="24px" />

@@ -10,7 +10,6 @@ import {
   StyledToolsContainer,
 } from "./styles";
 import { FooterProps } from "./types";
-import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
 import CakePrice from "../CakePrice/CakePrice";
 import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";

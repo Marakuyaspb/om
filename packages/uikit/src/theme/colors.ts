@@ -40,9 +40,6 @@ export const darkColors: Colors = {
   textSubtle: "#8094AE", // GRAY BLUE
   disabled: "#e5e5e5", // white
 
-  yellow: "#F7BE2F",
-  veryBlue: "#6681D9",
-  lightBlue: "#E5E5E5",
   gradients: {
     bubblegum: "#0d141d",
     inverseBubblegum: "#0d141d",
@@ -76,14 +73,11 @@ export const lightColors: Colors = {
   textSubtle: "#8094AE", // GRAY BLUE
   disabled: "#e5e5e5", // white
 
-  yellow: "#F7BE2F",
-  veryBlue: "#6681D9",
-  lightBlue: "#E5E5E5",
   gradients: {
     bubblegum: "#0d141d",
     inverseBubblegum: "#0d141d",
     cardHeader: "#15202F",
-    blue: "#0d141d",
+    blue: "#6681D9",
     violet: "#3453B6",
     violetAlt: "#452A7A",
     gold: "#F7BE2F",
