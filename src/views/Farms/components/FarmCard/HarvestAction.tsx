@@ -40,6 +40,7 @@ const HarvestAction: React.FC<FarmCardActionsProps> = ({ earnings, pid }) => {
         )}
       </Flex>
       <Button
+        variant="text"
         disabled={rawEarningsBalance.eq(0) || pendingTx}
         onClick={async () => {
           const receipt = await fetchWithCatchTxError(() => {

@@ -19,14 +19,14 @@ interface ThemedIconLabel {
 const getThemeColor = ({ theme, variant = variants.INFO }: ThemedIconLabel) => {
   switch (variant) {
     case variants.DANGER:
-      return theme.colors.failure;
+      return theme.colors.primaryDark;
     case variants.WARNING:
-      return theme.colors.warning;
+      return theme.colors.primaryDark;
     case variants.SUCCESS:
-      return theme.colors.success;
+      return theme.colors.primaryDark;
     case variants.INFO:
     default:
-      return theme.colors.secondary;
+      return theme.colors.primaryDark;
   }
 };
 
@@ -47,7 +47,7 @@ const getIcon = (variant: AlertProps["variant"] = variants.INFO) => {
 const IconLabel = styled.div<ThemedIconLabel>`
   background-color: ${getThemeColor};
   border-radius: 16px 0 0 16px;
-  color: ${({ theme }) => theme.alert.background};
+  color: ${({ theme }) => theme.alert.input};
   padding: 12px;
 `;
 
@@ -69,7 +69,7 @@ const CloseHandler = styled.div`
 
 const StyledAlert = styled(Flex)`
   position: relative;
-  background-color: ${({ theme }) => theme.alert.background};
+  background-color: ${({ theme }) => theme.alert.input};
   border-radius: 16px;
   box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05);
 `;
@@ -83,7 +83,9 @@ const Alert: React.FC<AlertProps> = ({ title, children, variant, onClick }) => {
         <Icon color="currentColor" width="24px" />
       </IconLabel>
       <Details hasHandler={!!onClick}>
-        <Text bold>{title}</Text>
+        <Text bold color="success">
+          {title}
+        </Text>
         {typeof children === "string" ? <Text as="p">{children}</Text> : children}
       </Details>
       {onClick && (

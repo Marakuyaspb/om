@@ -18,7 +18,7 @@ import { memo } from 'react'
 const CoreTag: React.FC<TagProps> = (props) => {
   const { t } = useTranslation()
   return (
-    <Tag variant="secondary" outline startIcon={<VerifiedIcon width="18px" color="secondary" mr="4px" />} {...props}>
+    <Tag variant="textSubtle" outline startIcon={<VerifiedIcon width="18px" color="failure" mr="4px" />} {...props}>
       {t('Core')}
     </Tag>
   )

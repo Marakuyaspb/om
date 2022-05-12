@@ -51,7 +51,7 @@ const PriceChart = ({
     <StyledPriceChart
       height={chartView === ChartViewMode.TRADING_VIEW ? '100%' : '70%'}
       overflow={chartView === ChartViewMode.TRADING_VIEW ? 'hidden' : 'unset'}
-      $isDark={}
+      $isDark={false}
       $isExpanded={isChartExpanded}
       $isFullWidthContainer={isFullWidthContainer}
     >
@@ -68,19 +68,19 @@ const PriceChart = ({
             </Text>
           )}
           <IconButton variant="text" onClick={onSwitchTokens}>
-            <SyncAltIcon ml="6px" color="yellow" />
+            <SyncAltIcon ml="6px" color="textSubtle" />
           </IconButton>
           <Flex>
             <ChartButton
               aria-label={t('Basic')}
+              variant="text"
               title={t('Basic')}
               $active={chartView === ChartViewMode.BASIC}
               scale="sm"
-              color="yellow"
               onClick={() => setChartView(ChartViewMode.BASIC)}
               mr="8px"
             >
-              {isDesktop ? t('Basic') : <LineGraphIcon color="yellow" />}
+              {isDesktop ? t('Basic') : <LineGraphIcon color="textSubtle" />}
             </ChartButton>
           </Flex>
         </Flex>

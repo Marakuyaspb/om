@@ -8,15 +8,17 @@ const MILLION = 1000000
 const TRILLION = 1000000000000
 
 const RoiCardWrapper = styled(Box)`
-  background: #6681d9;
+  background: ${({ theme }) => theme.colors.primary};
   padding: 1px;
   width: 100%;
+  border-color: #142b37;
   border-radius: ${({ theme }) => theme.radii.default};
 `
 
 const RoiCardInner = styled(Box)`
   height: 120px;
   padding: 24px;
+  border-color: #142b37;
   border-radius: ${({ theme }) => theme.radii.default};
   background: ${({ theme }) => theme.colors.gradients.bubblegum};
 `
@@ -54,8 +56,8 @@ const RoiDollarAmount = styled(Text)<{ fadeOut: boolean }>`
       &:after {
         background: linear-gradient(
           to right,
-          ${theme.colors.background}00,
-          ${theme.colors.background}E6
+          ${theme.colors.cardBorder}00,
+          ${theme.colors.cardBorder}E6
         );
         content: '';
         height: 100%;

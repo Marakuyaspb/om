@@ -17,10 +17,6 @@ const config: (t: ContextApi['t'], languageCode?: string) => ConfigMenuItemsType
     href: '/swap',
   },
   {
-    label: t('DAO'),
-    href: '/',
-  },
-  {
     label: '',
     href: '#',
     icon: MoreIcon,

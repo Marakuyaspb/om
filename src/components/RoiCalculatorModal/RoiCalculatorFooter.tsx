@@ -152,7 +152,7 @@ const RoiCalculatorFooter: React.FC<RoiCalculatorFooterProps> = ({
             )}
           </BulletList>
           <Flex justifyContent="center" mt="24px">
-            <LinkExternal href={linkHref}>{linkLabel}</LinkExternal>
+            <LinkExternal href={linkHref}> Get OMG </LinkExternal>
           </Flex>
         </Box>
       )}

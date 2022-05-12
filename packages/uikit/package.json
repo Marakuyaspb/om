@@ -9,7 +9,7 @@
     "dist"
   ],
   "sideEffects": false,
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/Marakuyaspb/om",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
