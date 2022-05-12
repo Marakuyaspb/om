@@ -47,7 +47,7 @@ const PriceChartContainer: React.FC<PriceChartContainerProps> = ({
   const isBnbWbnb = token0Address === BNB_ADDRESS && token1Address === BNB_ADDRESS
 
   if (isBnbWbnb) {
-    return <BnbWbnbNotice isDark={isDark} isChartExpanded={isChartExpanded} />
+    return <BnbWbnbNotice isChartExpanded={isChartExpanded} />
   }
 
   return (

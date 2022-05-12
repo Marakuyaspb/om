@@ -51,7 +51,6 @@ const PriceChart = ({
     <StyledPriceChart
       height={chartView === ChartViewMode.TRADING_VIEW ? '100%' : '70%'}
       overflow={chartView === ChartViewMode.TRADING_VIEW ? 'hidden' : 'unset'}
-      $isDark={false}
       $isExpanded={isChartExpanded}
       $isFullWidthContainer={isFullWidthContainer}
     >
